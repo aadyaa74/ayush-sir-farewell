@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Ayush Sir ❤️</title>
+    <title>For Ayush Sir </title>
 
     <style>
         body {
@@ -100,7 +100,7 @@
 
     <!-- 💌 MESSAGES -->
     <section>
-        <h2>Messages from Us 💬</h2>
+        <h2>Messages from Us </h2>
         <div class="messages">
 
             <!-- 👉 COPY THIS BLOCK TO ADD MORE -->
@@ -135,10 +135,17 @@
     -->
 
     <!-- 🎧 MUSIC -->
-    <audio autoplay loop>
+    <audio id="bg-music" loop>
         <!-- 👉 REPLACE WITH YOUR SONG LINK -->
-        <source src="your-music-file.mp3" type="audio/mpeg">
+        <source src="229848-a1324650-d47b-4d90-86af-e503f7b97d29.mp3" type="audio/mpeg">
     </audio>
+
+    <script>
+        document.addEventListener("click", function () {
+            const music = document.getElementById("bg-music");
+            music.play();
+        }, { once: true });
+    </script>
 
 </body>
 
